@@ -1,0 +1,55 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                 android:layout_width="match_parent"
+                                                 android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/app_bar_size"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="60dp">
+
+        <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <EditText
+                    android:id="@+id/input_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:hint="Identity Number"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <EditText
+                    android:id="@+id/input_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="datetime"
+                    android:hint="Birthday"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:background="@color/colorTextSecondary"
+                android:drawableRight="@drawable/ic_login_white_24dp"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:id="@+id/btn_login"
+                android:layout_marginTop="40dp"
+                android:drawablePadding="-15sp"
+                android:text="@string/btn_login"/>
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

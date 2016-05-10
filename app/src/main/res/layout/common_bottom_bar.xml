@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/layout_bottom_bar"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="end|bottom"
+              app:layout_behavior="tr.org.sample.app.ui.ScrollingBottomBarBehavior"
+              android:background="@null"
+              android:descendantFocusability="blocksDescendants"
+              android:clickable="true"
+>
+
+    <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bottom_bar_news"
+            android:src="@drawable/bottom_bar_news"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:background="@android:color/black"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+    />
+
+    <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bottom_bar_do"
+            android:src="@drawable/bottom_bar_2"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:background="@android:color/black"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+    />
+
+    <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bottom_bar_i"
+            android:src="@drawable/bottom_bar_3"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+    />
+
+    <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bottom_bar_login"
+            android:src="@drawable/bottom_bar_4"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+    />
+
+    <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bottom_bar_contactus"
+            android:src="@drawable/bottom_bar_5"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+    />
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:card_view="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="1dp"
+            android:layout_margin="12dp"
+            card_view:cardElevation="2dp"
+            card_view:cardMaxElevation="5dp">
+        <LinearLayout
+                android:id="@+id/top_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="148dp"
+                    android:id="@+id/cv_image"
+                    android:layout_margin="6dp"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"/>
+
+            <TextView
+                    android:id="@+id/cv_headline"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:alpha="0.9"
+                    android:textColor="@color/colorTextPrimary"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:text="Test"/>
+
+            <TextView
+                    android:id="@+id/cv_partial"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginBottom="8dp"
+                    android:textSize="13sp"
+                    android:text="Test Test Test Test Test"
+                    android:textColor="@color/colorTextPrimary"
+                    android:ellipsize="end"
+                    android:lines="3"/>
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="38dp"
+                          android:orientation="horizontal"
+                          android:background="@color/colorTextSecondary"
+            android:gravity="center"
+            >
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:id="@+id/cv_date"
+                          android:text="DATEEEEE"
+                          android:layout_margin="6dp"
+                          android:textSize="13sp"
+                          android:textColor="@color/colorTextIcons"
+                          android:background="@color/colorTextSecondary"
+                          android:gravity="left"
+                          android:layout_gravity="center"
+                          android:layout_weight="1"
+                />
+
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:id="@+id/cv_headline_cont"
+                          android:text="Cont"
+                          android:textSize="20sp"
+                          android:textColor="@color/colorTextIcons"
+                          android:background="@color/colorTextSecondary"
+                          android:layout_gravity="center"
+                          android:clickable="true"
+                          android:layout_weight="1"
+                />
+
+                <ImageButton android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:id="@+id/cv_headline_share"
+                             android:textColor="@color/colorTextIcons"
+                             android:background="@color/colorTextSecondary"
+                             android:src="@drawable/ic_share_variant_white_48dp"
+                             android:scaleType="fitEnd"
+                             android:layout_margin="6dp"
+                             android:adjustViewBounds="true"
+                             android:layout_weight="1"
+                />
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+

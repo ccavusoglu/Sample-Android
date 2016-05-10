@@ -1,0 +1,26 @@
+<android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:src="@drawable/background"
+               android:adjustViewBounds="true"
+               android:scaleType="centerCrop"
+    />
+
+    <include layout="@layout/common_app_bar"/>
+
+    <FrameLayout android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:id="@+id/do_content"
+                 android:layout_marginTop="@dimen/app_bar_size"
+    >
+
+    </FrameLayout>
+
+    <include layout="@layout/common_bottom_bar"/>
+
+</android.support.design.widget.CoordinatorLayout>

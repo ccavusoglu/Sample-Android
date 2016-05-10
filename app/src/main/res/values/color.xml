@@ -1,0 +1,19 @@
+<resources>
+    <color name="colorPrimary">#8b7053</color>
+    <color name="colorPrimaryDark">#7c644b</color>
+
+    <color name="colorPrimaryLight">#B2DFDB</color>
+    <color name="colorAccent">#FF9800</color>
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextSecondary">#727272</color>
+    <color name="colorDivider">#B6B6B6</color>
+    <color name="colorTextIcons">#FFFFFF</color>
+
+    <color name="colorStripeAnnouncement">#E71D36</color>
+    <color name="colorStripeOnlineOps">#88a2aa</color>
+    <color name="colorStripeEvents">#2ec4b6</color>
+    <color name="colorStripeHeadlines">#011627</color>
+
+    <color name="drawer_item_default">#727272</color>
+    <color name="drawer_item_checked">#FF9800</color>
+</resources>
